@@ -8,6 +8,12 @@ spring:
 mybatis-plus:
   mapper-locations: classpath*:/mapper/**Mapper.xml
 
+shiro-redis:
+  enabled: true
+  redis-manage:
+    host: 127.0.0.1:6379
+
+
 miracle:
   jwt:
     # 加密秘钥
